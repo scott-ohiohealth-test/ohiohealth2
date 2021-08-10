@@ -14,7 +14,7 @@ def main():
     list_of_rnd = []
     fn = f'/home/scott2/{formatted_time}.log'
     for i in series_of_series:
-        rnd = str(divisible_random(0, 1000, 5))
+        rnd = str(divisible_random(0, 1000, 9))
         list_of_rnd.append(rnd)
     #print(list_of_rnd)
     with open(fn, 'w') as file:
